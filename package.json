@@ -1,12 +1,17 @@
 {
   "name": "alignment-compass",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "a library to create compass tests",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["compass", "alignment", "test", "axis"],
+  "keywords": [
+    "compass",
+    "alignment",
+    "test",
+    "axis"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
