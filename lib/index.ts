@@ -5,3 +5,4 @@ export * from './classes/test-calculator.class';
 export * from './types/answered-answer.interface';
 export * from './types/compass-test-question.interface';
 export * from './types/compass-test.interface';
+export * from './types/compass-test-result.interface';

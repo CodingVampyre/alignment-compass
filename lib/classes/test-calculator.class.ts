@@ -1,6 +1,7 @@
 // Code Written by CodingVampyre 2021; Licensed under MIT
 
 import { IAnsweredAnswer } from "../types/answered-answer.interface";
+import { ICompassTestResult } from "../types/compass-test-result.interface";
 
 /** Used to calculate test results */
 export class TestCalculator {
@@ -9,7 +10,7 @@ export class TestCalculator {
 	 * calculates a coordinate given a list of test answers
 	 * @param answers a list of answered questions
 	 */
-	public static CalculateTestResults(answers: IAnsweredAnswer[]) {
+	public static CalculateTestResults(answers: IAnsweredAnswer[]): ICompassTestResult {
 		// Calculate Max value on each axis
 		let max = [0, 0];
 		for (const answer of answers) {
